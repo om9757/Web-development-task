@@ -1,0 +1,282 @@
+.home-page{
+    background-image: url("./images/Screenshot\ 2025-08-06\ 145132.png");
+    height: 1000px;;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 20px;
+  text-align: center;
+}
+
+
+
+.home-text{
+    color: #ffffff;
+    position:absolute;
+    text-align: center;
+    top: 300px;
+    width: 95%;
+    font-size: 5rem;
+      font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px #0c0d0e;
+
+
+}
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom, #cceeff, #e6f9ff);
+  color: #003344;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+
+header ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+
+/* this is for the blue effect when click */
+header ul li a:hover {      
+  background-color: #00acc1;
+  transform: scale(1.05);
+}
+
+
+@media (max-width: 600px) {
+  header ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+
+.footer-bar {
+  background-color: #004d66;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 1rem;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.footer-bar a {
+  color: #00acc1;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-bar a:hover {
+  text-decoration: underline;
+}   
+  
+
+
+
+
+
+
+/* page one What's polluting our oceans */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+header {
+  background-color: rgba(0, 77, 102, 0.85);
+  padding: 15px 0;
+  width: 100%;
+}
+
+
+
+header ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+
+.pollution-causes {
+  padding: 40px 0;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.pollution-causes h1 {
+  font-size: 2rem;
+  color: #00695c;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(255,255,255,0.6);
+}
+
+.pollution-causes h2 {
+  font-size: 1.5rem;
+  margin-top: 30px;
+  color: #004d40;
+}
+
+.pollution-causes h3 {
+  font-size: 1.5rem;
+  margin-top: 30px;
+  color: #004d40;
+}
+
+.pollution-causes h4 {
+  font-size: 1.5rem;
+  margin-top: 30px;
+  color: #004d40;
+}
+
+
+.pollution-causes p {
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #003344;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 30px;
+  border-radius: 5px;
+}
+
+
+.pollution-img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+/* page two Impact on wildlife and ecosystem */
+
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+header {
+  background-color: rgba(0, 77, 102, 0.85);
+  padding: 15px 0;
+  width: 100%;
+}
+
+
+
+header ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+
+.Impact-on-wildlife-and-Ecosystems {
+  padding: 40px 0;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.Impact-on-wildlife-and-Ecosystems h1 {
+  font-size: 2rem;
+  color: #00695c;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(255,255,255,0.6);
+}
+
+.Impact-on-wildlife-and-Ecosystems h2 {
+  font-size: 1.5rem;
+  margin-top: 30px;
+  color: #004d40;
+}
+
+.Impact-on-wildlife-and-Ecosystems h3 {
+  font-size: 1.5rem;
+  margin-top: 30px;
+  color: #004d40;
+}
+
+.Impact-on-wildlife-and-Ecosystems h4 {
+  font-size: 1.5rem;
+  margin-top: 30px;
+  color: #004d40;
+}
+
+
+.Impact-on-wildlife-and-Ecosystems p {
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #003344;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 30px;
+  border-radius: 5px;
+}
+
+
+.wildlife-Ecosustem-img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+
